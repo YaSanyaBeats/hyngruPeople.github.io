@@ -1,0 +1,22 @@
+.events{
+    padding: 10px 0;
+    .main{
+        justify-content: center;
+        .collage{
+            width: 300px;
+            img{
+                margin: 10px 0;
+            }
+        }
+    }
+    h5{
+        line-height: 50px;
+    }
+    span{
+        line-height: 30px;
+        b{
+            display: block;
+            opacity: 0.5;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+/* Colors */
+@import 'colors';
+
+/* Fonts */
+@import 'fonts';
+
+/* Presets */
+@import 'presets';
+
+/* blocks */
+@import 'header';
+@import 'about';
+@import 'team';
+@import 'booking';
+@import 'specialties';
+@import 'menu';
+@import 'events';
+@import 'contact';
+@import 'footer';
+
+/* Mobile Blocks */
+@media(max-width: 1280px){
+    @import 'mobile/header';
+    @import 'mobile/about';
+    @import 'mobile/team';
+    @import 'mobile/booking';
+    @import 'mobile/specialties';
+    @import 'mobile/menu';
+    @import 'mobile/events';
+    @import 'mobile/contact';
+    @import 'mobile/footer';
+}
